@@ -29,9 +29,8 @@ public class IpUtil {
         } else if (ip.length() > 15) {
             String[] ips = ip.split(",");
             for (String s : ips) {
-                String strIp = (String) s;
-                if (!("unknown".equalsIgnoreCase(strIp))) {
-                    ip = strIp;
+                if (!("unknown".equalsIgnoreCase(s))) {
+                    ip = s;
                     break;
                 }
             }

@@ -2,7 +2,6 @@ package com.dmo.tp.logModel.annotation.parser;
 
 import com.dmo.tp.logModel.bean.log.ILog;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 @Slf4j
 public class ApiLogCommonOperationImpl implements ApiLogCommonOperation {
